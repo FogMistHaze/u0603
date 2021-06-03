@@ -28,6 +28,6 @@ public class Hensu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Proc2();
     }
 }
