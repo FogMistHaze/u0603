@@ -14,14 +14,20 @@ public class Hensu : MonoBehaviour
         Debug.Log(vx);
 
         vx = 10;
-        Debug.Log(this.vx);
+        Debug.Log(vx);
     }
 
     public void Ensyu72()
     {
         Debug.Log(vx);
     }
-    
+
+    public void Ensyu74()
+    {
+        vx += 10;
+        Debug.Log(vx);
+    }
+
     // Start is called before the first frame update
     public void Proc()
     {
