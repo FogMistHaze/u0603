@@ -14,7 +14,7 @@ public class Hensu : MonoBehaviour
         Debug.Log(vx);
 
         vx = 10;
-        Debug.Log(vx);
+        Debug.Log(this.vx);
     }
 
     public void Ensyu72()
