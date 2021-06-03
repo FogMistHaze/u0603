@@ -5,6 +5,16 @@ using UnityEngine;
 public class Hensu : MonoBehaviour
 {
     int a = 10;
+
+    //順次処理
+    public void Ensyu71()
+    {
+        int vx = 5;
+        Debug.Log(vx);
+
+        vx = 10;
+        Debug.Log(vx);
+    }
     
     // Start is called before the first frame update
     public void Proc()
@@ -28,6 +38,6 @@ public class Hensu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Proc2();
+        
     }
 }
