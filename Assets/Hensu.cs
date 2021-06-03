@@ -5,6 +5,7 @@ using UnityEngine;
 public class Hensu : MonoBehaviour
 {
     int a = 10;
+    int vx = 20;
 
     //順次処理
     public void Ensyu71()
@@ -13,6 +14,11 @@ public class Hensu : MonoBehaviour
         Debug.Log(vx);
 
         vx = 10;
+        Debug.Log(vx);
+    }
+
+    public void Ensyu72()
+    {
         Debug.Log(vx);
     }
     
